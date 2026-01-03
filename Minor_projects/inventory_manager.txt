@@ -1,0 +1,29 @@
+=====================================================
+PROJECT: AI Hardware Inventory Lifecycle Manager
+AUTHOR: Abhinav Shrivastav
+=====================================================
+
+--- OVERVIEW ---
+This tool simulates the management of high-performance GPU inventory 
+essential for AI infrastructure. It demonstrates the ability to 
+handle dynamic data collections (Product SKUs) through their 
+lifecycle—from launch to discontinuation.
+
+--- TECHNICAL LOGIC ---
+1. DATA STRUCTURE: Utilizes Python Lists [] for ordered storage.
+2. EXPANSION: Uses .append() to simulate new product launches 
+   (e.g., adding RTX 4090).
+3. ANALYTICS: Employs len() to provide real-time reporting on 
+   the total number of active product lines.
+4. LIFECYCLE MANAGEMENT: Implements conditional logic (if-in) 
+   and .remove() to safely decommission legacy hardware (e.g., A100).
+
+--- INITIAL STOCK ---
+- A100 (Legacy)
+- H100 (Enterprise Standard)
+- B100 (Next-Gen)
+
+--- TARGET OUTCOME ---
+Ensures that product portfolios remain updated and that the 
+logic prevents errors when attempting to remove non-existent SKUs.
+=====================================================
