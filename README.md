@@ -9,51 +9,56 @@ As an AI Product Manager, bridging the gap between high-level product strategy a
 
 Each project here is a micro-simulation of real-world AI PM challenges:
 
+- **Computer Vision:** Managing hardware-software handshake for real-time data.
 - **Resource Scaling:** Managing GPU/Hardware inventory.
 - **Decision Logic:** Automating feature prioritization and grading thresholds.
-- **System Health:** Monitoring vitals for AI-driven robotics.
 
 ---
 
 ## 🏗️ Core Micro-Projects
 
+### 👁️ Camera Integration Engine (`camera_test.py`)
+- **Problem:** AI models require stable real-time data streams from hardware (webcams/sensors).
+- **Solution:** Initialized a CV2-based capture stream with hardware cleanup protocols and frame-shape analysis.
+- **Documentation:** Inside the Folder
+
 ### 🎓 Grading Logic Engine (`random_grading.py`)
 - **Problem:** Automated user/system performance tiering based on variable inputs.
 - **Solution:** Threshold-based classification using `random` simulation to test logic gates (Grade A/B/Improvement).
-- **Documentation:** inside the folder
+- **Documentation:** Inside the Folder
 
 ### 🏥 Robot Health Monitor (`robot_health.py`)
 - **Problem:** Proactive maintenance is required to prevent downtime in AI-integrated hardware.
 - **Solution:** Threshold-based logic to monitor system vitals and trigger status alerts (CPU/RAM).
-- **Documentation:** inside the folder
+- **Documentation:** Inside the Folder
 
 ### 📦 Inventory Lifecycle Manager (`inventory_manager.py`)
 - **Problem:** Manual tracking of high-demand AI hardware leads to stock inaccuracies.
 - **Solution:** A dynamic inventory system managing chip lifecycles (A100, H100, B100) using list manipulation.
-- **Documentation:** inside the folder
+- **Documentation:** Inside the Folder
 
 ### 📊 Feature Ranking Engine (`ranking_number.py`)
 - **Problem:** Product backlogs often lack objective numerical prioritization.
 - **Solution:** A script that processes and ranks datasets to identify high-priority features.
-- **Documentation:** inside the folder
+- **Documentation:** Inside the Folder
 
 ### 🔢 Metric Extractor (`largest_number.py`)
 - **Problem:** Need quick identification of peak performance values from raw data.
 - **Solution:** Comparison logic to instantly isolate the highest value in a dataset for A/B testing metrics.
-- **Documentation:** inside the folder
+- **Documentation:** Inside the Folder
 
 ---
 
 ## 🚀 How to Use
 
 1. **Clone the repo:** `git clone https://github.com/abhinavshrivastavgit/Micro_Projects.git`
-2. **Install Dependencies:** `pip install opencv-python --only-binary=:all:` (For upcoming vision modules)
-3. **Run a script:** `python random_grading.py`
+2. **Install Dependencies:** `pip install opencv-python --only-binary=:all:`
+3. **Run a script:** `python camera_test.py` (Press 'q' to exit)
 
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.14 (Latest)
-- **Environment:** Isolated Virtual Environments
+- **Library:** OpenCV (Computer Vision)
 - **Version Control:** Git/GitHub (Main Branch)
 
 ---
