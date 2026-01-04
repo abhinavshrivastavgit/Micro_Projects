@@ -10,12 +10,18 @@ As an AI Product Manager, bridging the gap between high-level product strategy a
 Each project here is a micro-simulation of real-world AI PM challenges:
 
 - **Resource Scaling:** Managing GPU/Hardware inventory.
-- **Decision Logic:** Automating feature prioritization.
+- **Decision Logic:** Automating feature prioritization and grading thresholds.
 - **System Health:** Monitoring vitals for AI-driven robotics.
 
 ---
 
 ## 🏗️ Core Micro-Projects
+
+### 🎓 Grading Logic Engine (`random_grading.py`)
+
+- **Problem:** Automated user/system performance tiering based on variable inputs.
+- **Solution:** Threshold-based classification using `random` simulation to test logic gates (Grade A/B/Improvement).
+- **Documentation:** [View Grading Logic](random_grading.txt)
 
 ### 🏥 Robot Health Monitor (`robot_health.py`)
 
@@ -46,14 +52,14 @@ Each project here is a micro-simulation of real-world AI PM challenges:
 ## 🚀 How to Use
 
 1. **Clone the repo:** `git clone https://github.com/abhinavshrivastavgit/Micro_Projects.git`
-2. **Install Dependencies:** `pip install psutil` (Required for Robot Health Monitor)
-3. **Run a script:** `python robot_health.py`
+2. **Install Dependencies:** `pip install opencv-python --only-binary=:all:` (For upcoming vision modules)
+3. **Run a script:** `python random_grading.py`
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python 3.12
-- **Environment:** Virtual Environments (venv)
-- **Version Control:** Git/GitHub
+- **Language:** Python 3.14 (Latest)
+- **Environment:** Isolated Virtual Environments
+- **Version Control:** Git/GitHub (Main Branch)
 
 ---
 
